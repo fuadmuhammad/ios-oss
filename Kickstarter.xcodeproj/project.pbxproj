@@ -893,6 +893,7 @@
 		D0D2ABA31E964852008D298A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FD4CC81E26433C00488660 /* libz.tbd */; };
 		D0D2ABA91E9677E8008D298A /* LiveStreamTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D2ABA51E9677DD008D298A /* LiveStreamTypes.swift */; };
 		D0D2ABAA1E9677EC008D298A /* LiveStreamTypesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D2ABA61E9677DD008D298A /* LiveStreamTypesTests.swift */; };
+		D6B1A90F1FC3587900617A46 /* UIPageViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B1A8D81FC3587900617A46 /* UIPageViewController+Extensions.swift */; };
 		D70347901DBAABC30099C668 /* DiscoveryExpandableRowCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D703478F1DBAABC30099C668 /* DiscoveryExpandableRowCellViewModel.swift */; };
 		D7A37C8F1E2EB01700EA066D /* SearchEmptyStateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A37C8E1E2EB01700EA066D /* SearchEmptyStateCell.swift */; };
 		D7A37CCF1E2FF93D00EA066D /* SearchEmptyStateCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A37CCE1E2FF93D00EA066D /* SearchEmptyStateCellViewModel.swift */; };
@@ -2404,6 +2405,7 @@
 		D0FD4CC41E2642EB00488660 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		D0FD4CC61E2642F200488660 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		D0FD4CC81E26433C00488660 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D6B1A8D81FC3587900617A46 /* UIPageViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIPageViewController+Extensions.swift"; sourceTree = "<group>"; };
 		D703478F1DBAABC30099C668 /* DiscoveryExpandableRowCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryExpandableRowCellViewModel.swift; sourceTree = "<group>"; };
 		D7A37C8E1E2EB01700EA066D /* SearchEmptyStateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchEmptyStateCell.swift; sourceTree = "<group>"; };
 		D7A37CCE1E2FF93D00EA066D /* SearchEmptyStateCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchEmptyStateCellViewModel.swift; sourceTree = "<group>"; };
@@ -3177,6 +3179,7 @@
 				A7C725971C85D36D005A016B /* UILabel+LocalizedKey.swift */,
 				A7C725981C85D36D005A016B /* UILabel+SimpleHTML.swift */,
 				A7ED1F251E830FDC00BFFA01 /* UILabel+SimpleHTMLTests.swift */,
+				D6B1A8D81FC3587900617A46 /* UIPageViewController+Extensions.swift */,
 				A7C725991C85D36D005A016B /* UIPress-Extensions.swift */,
 				A78537E11CB5422100385B73 /* UIScreenType.swift */,
 				A7169BF51DDD064200480C0D /* UIScrollView+Extensions.swift */,
@@ -4836,6 +4839,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6B1A90F1FC3587900617A46 /* UIPageViewController+Extensions.swift in Sources */,
 				013744F81D99A39B00E50C78 /* EmptyStatesViewModel.swift in Sources */,
 				D0247A961DF9F29100D7A7C1 /* ProjectPamphletSubpageCellViewModel.swift in Sources */,
 				0156B3751D0F7524000C4252 /* ActivityFriendFollowCellViewModel.swift in Sources */,
